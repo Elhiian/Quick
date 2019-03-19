@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Desea ingresar la dirección de destino?"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/edittextdestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escriba aquí la dirección"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSinDestino"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sin destino"/>
+
+        <Button
+            android:id="@+id/btnEnviarDestino"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enviar destino"/>
+
+    </LinearLayout>
+
+</LinearLayout>
