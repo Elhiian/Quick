@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="3dp"
+    android:id="@+id/layoutRecyclerContent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nombreUsaurio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginBottom="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Dirección: "
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/direccionUbicacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:layout_height="wrap_content"
+                android:text="Destino: "
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/direccionDestino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Distancia: "
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/distancia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textSize="15dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnAceptarServicio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aceptar solicitud de servicio"
+                    android:background="@drawable/button_stytle"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"/>
+
+                <ProgressBar
+                    android:id="@+id/progressbarsolicitud"
+                    android:layout_width="wrap_content"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

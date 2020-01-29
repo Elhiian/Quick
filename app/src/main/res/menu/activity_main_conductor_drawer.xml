@@ -13,24 +13,24 @@
             android:icon="@drawable/icon_messaje"
             android:title="Solicitudes" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_history"
+            android:icon="@drawable/icon_history"
+            android:title="Historial de viajes" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nav_account"
+            android:icon="@drawable/icon_person"
+            android:title="Mi cuenta" />
     </group>
 
     <item android:title="Communicate">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/nav_about"
+                android:icon="@drawable/icon_about"
+                android:title="Acerca de" />
             <item
-                android:id="@+id/nav_salir"
-                android:icon="@drawable/ic_menu_send"
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/icon_exit"
                 android:title="Salir" />
         </menu>
     </item>
